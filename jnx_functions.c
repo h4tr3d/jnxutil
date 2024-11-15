@@ -23,8 +23,8 @@
 
 #include "common.h"
 #ifdef WITH_GDAL
-#include <gdal/cpl_string.h>
-#include <gdal/gdal_utils.h>
+#include <cpl_string.h>
+#include <gdal_utils.h>
 #endif
 
 void check_jnx_file()
